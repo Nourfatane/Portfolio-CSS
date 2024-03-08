@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#f9f9f9;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    padding: 1.4rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration:underline;
+}
+
+.home-container {
+    height: 5vh;
+}
+
+.title-header{
+    float: left;
+    width: 45%;
+    margin-top: 10rem;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.title-header h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.image-container{
+    float: right;
+    width: 30rem;
+    height: auto;
+}
+#Work {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#Work h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#Work ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Work li {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#Work li:before {
+    content: "\2022"; /* Utilisation du bullet Unicode pour les éléments de liste */
+    color: #007bff; /* Couleur du bullet */
+    margin-right: 5px;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+#contact input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#Resume {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#Resume h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#Resume p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#Resume a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#Resume a:hover {
+    text-decoration: underline;
+}
+
+
+.clean {
+    clear: both;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;;
+    color: #fff;
+    padding: 20px; 
+    text-align: center; 
+
+.footer-content {
+    margin-top: 20px; 
+}
+
+.footer-left {
+    text-align: left; 
+}
+
+.footer-left p {
+    margin: 5px 0; 
+}
+
+.footer-left a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.footer-left a:hover {
+    text-decoration: underline; 
+}
