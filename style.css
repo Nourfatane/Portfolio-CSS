@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     body {
-        font-family: 'Roboto', Arial, sans-serif; /* Roboto font as primary, fallback to Arial and sans-serif */
+        font-family: 'Roboto', Arial, sans-serif; 
         margin: 0;
         padding: 0;
     }
